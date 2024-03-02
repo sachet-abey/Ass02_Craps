@@ -40,7 +40,7 @@ public class Main {
             }
             done = false; // Set done to false for the next do-while loop
             do {
-                System.out.println("Would you like to continue playing?"); // Prompts user if they would like to continue playing
+                System.out.println("Would you like to continue playing? [Y/N]"); // Prompts user if they would like to continue playing
                 String response = scan.nextLine(); // Read user input as string
                 if(response.equalsIgnoreCase("Y")) { // If user enters Y (yes), ignoring case
                     done = true; // Set done to true to continue the outer while loop - user continues playing because they entered yes
